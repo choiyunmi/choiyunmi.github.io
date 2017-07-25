@@ -68,7 +68,7 @@
    objNames.fn2();
 
    /*console.log(this);*/
-
+ // 객체는 순서가 없으므로 유일 무이하게 for in문법 으로 사용한다.  
 
    for(var key in objNames){
       console.log(key, objNames[key]);
