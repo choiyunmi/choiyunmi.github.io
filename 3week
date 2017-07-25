@@ -1,0 +1,149 @@
+#객체
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta charset="utf-8">
+   <title>exam</title>
+   <link rel="stylesheet" href="common.css" />
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+   <script>
+   //console.log(window);
+
+   var arrayNames = [273,'string',true,function(){},{},[273.103]];
+   console.log(arrayNames);
+
+   var arrayNames = [2,3,'윤미',false,1];
+
+   console.log(arrayNames[0]);
+   console.log(arrayNames[2]);
+   console.log(arrayNames[4]);
+
+   //var arrayNames  = [];
+   //console.log(arrayNames.length);
+   //arrayNames  = [10,20];
+   //console.log(arrayNames.length);
+   //arrayNames[100] = 'A';
+   //console.log(arrayNames.length);
+
+   //arrayNames = [];
+
+   //var arrayNames  =  [273,'string',true,function(){},{},[273,102]];
+   //console.log(arrayNames.reverse());
+   //프로토타입 부모 object console.log(Array.prototype);
+
+
+  //배열 최대값 구하기     Math.max sort는 문자열 인식 숫자로sort찾아보기
+  /* $function(){
+
+         var boxArea = $('boxArea'),
+         box = boxArea.find('.box'),
+         aHeight = [];
+         for (var i = 0,max = box.length; i < max; i++){
+            aHeight.push.(box.eq(i).outerHeight(true));
+         }
+
+         var aHeightMAX = Math.max.apply(null,aHeight)
+         box.css('height',heightMAX)
+         /*console.log(aHeight);
+         console.log(Math.max.apply(null, aHeight));
+
+   });*/
+
+//객체안의 this는 객체를 바라본다
+   var objNames = {
+         a : 10,
+         name : '홍길동',
+         fn : function(){
+            
+            /*console.log(this);*/
+         },
+         fn2 : function(){
+            
+            console.log(this);
+         }
+   };
+
+   objNames.fn();
+   console.log(objNames);
+   objNames.fn2();
+
+   /*console.log(this);*/
+
+
+   for(var key in objNames){
+      console.log(key, objNames[key]);
+   }
+
+   /*delete objNames.name;*/
+
+   console.log(objNames.hasOwnProperty('name'));
+
+   va objNames 
+
+   //i8 에서 오류가 나기때문 에 이렇게 쓴다. 객체는 윈도우 에서 찾는다,
+
+      /*var hasOwnProperty = object.prototype.hasOwnProperty;
+      var objNames ={
+         name : 'hwan'
+      };
+
+        objNames.hasOwnProperty.name;
+
+      var objResult = {
+         init : fucntion(){
+            this.setElements();
+         }, 
+         setElements : function(){
+            this.examWrap1  = $('.exam_wrap').eq(0);
+            this.examChild1 = this.objParent.children();
+            this.objbtn = this.examChild1.find('button');
+         },
+
+         //on클릭하였을떄 click이면 클릭한것을 바라본다.
+         bindEvents : function() {
+            this.objbtn.on('click',$.proxy(this.objFunc, this));
+         },
+         objFunc : function() {
+
+         }
+         
+      };
+
+      objResult.init();
+
+//new 가되는것 프로토 타입이붙는다.
+
+var objNmaes = new Function ;
+var objNmaes = new array;
+
+
+var objNmaes  = {};
+objName.a = '문자열';
+objName.b = '문자열';
+objName['c'] = '문자열';
+objName['d'] = '문자열';
+
+var str = 'bcade'
+objT = {};
+for (var i = 0, max = str.length; i < max; i++){
+   str[i]; // 'b'
+   /*objT[str[i]];
+   objT[str[i]];
+
+if(objT.hasOwnProperty(str[i])){
+      objT[str[i]] += 1;
+}else{
+   objT[str[i]] = 1;
+
+ }
+}
+console.log(objT);
+*/
+   </script>
+  </head>
+<body>
+   <!-- wrapper [s] -->
+  
+   <!-- wrapper [e] -->
+</body>
+</html>
