@@ -1,0 +1,10 @@
+oself = objectself
+
+fadein함수 안에서 바라보면 this가 앞의 메서드 를 바라보기된다.
+그런데oself이면 this를 전역객체로 선언하면 위의 최상단 메서드를바라보게된다
+
+http://api.jquery.com/category/deferred-object/
+
+http://www.vasanthk.com/jquery-promises-and-deferred-objects/
+
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise
