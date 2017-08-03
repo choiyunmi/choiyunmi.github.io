@@ -8,3 +8,11 @@ http://api.jquery.com/category/deferred-object/
 http://www.vasanthk.com/jquery-promises-and-deferred-objects/
 
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+객체지향프로그래밍 oop vs 절차지향프로그래밍(순서데로)
+기능별로 함수 로 구현한다 해당기능을 바로 수정이가능하여 운영이편리 
+이몰 script 자주볼것 ex)outside 
+기능함수 해당기능에 맞게 잘묶어놓기,this 최적화 성능은 나중에할것 
+
+http://aramk.tistory.com/25
+change prop으로 작업 on 은 ie에서 작업이 불가하다
