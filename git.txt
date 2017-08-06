@@ -1,0 +1,21 @@
+ 안될시모든 숨김파일 보이게 
+
+$ git clone https://github.com/choiyunmi/study.git
+
+$ git status
+
+$ cd study
+
+$ls
+
+$ git status
+
+$ git add .
+
+$ git commit -m '완성'
+
+$ git status 상태 보고  $git add .누를것 
+
+$git commit -m '완성'
+
+$git push 직접 올리는것 윈도우에서
