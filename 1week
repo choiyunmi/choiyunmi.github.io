@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+        <script>
+        console.log('Hello World')
+        // 한줄 주석
+        /*
+        	여러줄 주석
+        	여러줄 주석
+        */
+
+        //변수 a 에 10을 저장합니다.	
+        var a = 10;
+
+        // 변수 name에 문자열 '홍길동' 을 저장합니다.
+        var name = '홍길동';
+
+
+
+        var myAge = 10;
+        function myFunc (){
+        	 var temp = 10;
+        	 total = temp + 20;
+        	 console.log(total);
+        };
+
+        function myFunc2(){
+        	var temp = 20;
+        	console.log(temp);
+        }
+
+        myFunc();
+        myFunc2();
+
+        var intNum = 34;
+        var singleStr = 'Volvo XC60';
+        var boolVar = true;
+        var emptyVar;
+        var nullVar = null;
+
+        console.log(typeof intNum, typeof singleStr, typeof boolVar	, typeof emptyVar, typeof nullVar)
+
+        var objA = {
+        	val : 40
+        };
+        //물어볼것	a.val 은 40이 아닐까요 object,object로 나온다 무엇일까 object.prototype 이것도 애매하다. 찾는것으로 알고있는데...
+        var objB = objA;
+
+        objB.val = 50;
+        console.log(objA.val);
+        console.log(objB.val);
+
+ 		var foo = {
+ 			name : 'foo',
+ 			age : 40
+ 		};
+
+ 		console.log(foo.toString());
+ 		console.log(foo);
+ 		console.log(Object.prototype);
+    	    
+
+
+    	var x = 'good' + 'time';
+    	var b = 'good' + 3;    
+    	console.log(x);
+    	console.log(b);
+
+    	var c = 3/2;
+    	var d = 4%2;
+
+    	console.log(c);
+    	console.log(d);
+
+		</script>
+ 		}
+    </head>
+
+    <body>
+     </body>
+</html>
