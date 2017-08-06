@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>find demo</title>
+  <style>
+  </style>
+  <script>
+
+  https://api.jquery.com/jQuery.inArray/  
+  	//배열  index를 하지말고 push로 할것 2번 char at 0에서 q반환 3번  slice모든 배열을 반환  inarray 중복되는 값이있으면 다시 갖고오는것  -1는 값이 X 뒤에 배열에서 값이있으면 값을 가지고 오는것 민성 팀장님께 더완벽함 flor내림  *6 하면 5가되니간
+    //5까지 랜덤  splice 어는부분에서 삭제할것인지 배열한것인지 하는것 math객체  삭제 됬으니깐 다시 length를 다시 갖고온다. 네임스페이스 윈도에 다가 넣어야한다. 특정한것 하나만 넣기 뿌리를 내려 놓는다. 윈도우 하나만 이름있으니깐 충돌 날 확률이적다. exam 함수 안에 객체 두개면 부모객체 를 바라본다.   객체 를 담아서 객체를 바로 했음 객체 for문을 돌리는것  객체 를 배열에다가 넣는것 민성 팀장님꺼 보기 abcdefg 문제 관리 차원 에서 하는것 이름짓는게 중요하다 ab이렇게 지우면안된다 태그 들만 관리 하는것 assignElement  new를 붙이면 자동으로 프로토 타입이 붙는다. 실행됨과 동시 에 저장된다. var XX = new XX object_prototype 볼것 js_object_prototype.asp 계속 보면서 test this는 전역번수 var 지연변수 모든 함수    proxy 타겟 변경 땜씨 
+  //emam객체 생성 view 를 또 관리 하고 싶어서 객체 생성 없으면  또 그구문 만든다. 확장성 을 놓고 보면은 스크립트 지역 변수 는 못씀 윈도우 에 쓰면 윈도우 에서 갖고 오면 된다 윈도 우 에 넣고 관리 
+  //index_v2 01_sticky window. 자바스크립트 는 명시적으로 해야지 좋 다  window.console.log 자바스크립트 리마인드 해줘야함 공부 할려고 하는것 잊지 않으려고 해보는것 계속  라인 플레이 
+  //높이 도 언제든 지 변할수 있다는것 을 가정하고 작업
+  //맨처음 아바타는 랜덤 한번도 중복 되어서 나타나면 안된다 다한번씩만 remove하면 안된다..태그를 삭제하기 때문에 갱신 하기 어렵다 loof로 할것 loof돌떄 도 중복 하면안되다. 맨처음과 맨끝 과 겹치면 안된다. 겹치면 다시 loof while로 해야함  코카콜라 위에서 true 꽝선언 후 작업 해볼것  콜백  jquery animate  fucntion들어 가면 jquery api animate검색 인자값 앞에껀 필수고 뒤에건 석택 
+  //시간 움직이는 효과 complete 는 중요 딱 왔을때 실행 되는것 complete 프록시 선언 해서 관리 할것 참조 url http://api.jquery.com/animate/
+  </script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<h2>Greetings</h2>
+<div class="container">
+  <div class="inner">Hello</div>
+  <div class="inner">Goodbye</div>
+</div> 
+</body>
+</html>
