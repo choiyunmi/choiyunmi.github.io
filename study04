@@ -25,6 +25,6 @@ $.extend({}, defParams, (opts || {}));
 코드보니 중복이 되는 문장들이 많은데, 가급적 중복되는 문장들도 한번에 처리할수 있도록 연구해보세요~
 
 객체 배열 차이점 
-ㅍhttp://programmer-seva.tistory.com/18 
+http://programmer-seva.tistory.com/18 
 
 $(window).on('scroll', function(){ console.log($(window).scrollTop()) })
