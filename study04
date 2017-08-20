@@ -1,0 +1,30 @@
+change http://findfun.tistory.com/271
+
+환팀장님 사용빈도 
+currentTarget > target >>>>>>> delgateTarget 
+
+target & currentTarget 차이점
+http://lidaf.tistory.com/38
+
+target : https://api.jquery.com/event.target/
+
+event.delegatTarget http://opendive.tistory.com/624
+	
+attr 과 prop차이점 
+http://hellogk.tistory.com/96
+
+hasclass 있으면 true를 반환 
+http://api.jquery.com/hasClass/
+
+js유효성 검사
+
+A. {} 는 빈 객체이고, defParams 는 기본 객체이고, opts 는 인자로 받아오는 객체입니다. 이중에서 {}, defParams 는 항상 존재를 하겠지만, opts 는 받아오는 인자가 있을수도 있고, 없을수도 있습니다. 없으면 오류가 나요~ 그래서 유효성 검사를 해야 합니다.
+$.extend({}, defParams, (opts || {}));
+
+피드백 
+코드보니 중복이 되는 문장들이 많은데, 가급적 중복되는 문장들도 한번에 처리할수 있도록 연구해보세요~
+
+객체 배열 차이점 
+ㅍhttp://programmer-seva.tistory.com/18 
+
+$(window).on('scroll', function(){ console.log($(window).scrollTop()) })
