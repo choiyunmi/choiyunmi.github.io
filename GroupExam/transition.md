@@ -1,4 +1,4 @@
-#### transform (변형)
+### transform (변형)
 
 transform  은 엘리먼트의 크기,위치, 모양을 변경하는 속성입니다.
 
@@ -62,7 +62,7 @@ ex) http://cpbest.kr/study/transform.html
 
 .test{position:absolute;top:20%} 가변
 
-#### transition (전환)
+### transition (전환)
 
 전환은 효과가 변경되었을 때 부드럽게 처리해주는 CSS의 기능입니다. 이와 관련된 것으로는 아래와 같은 속성들이 있습니다. 
 
@@ -99,7 +99,7 @@ safari 3.1+ : -webkit -
 opera 10.5+ : -0-
 http://caniuse.com/#feat=css-transitions
 
-#### CSS3 트랜지션과 애니메이션의 차이
+### CSS3 트랜지션과 애니메이션의 차이
 
 http://www.kirupa.com/html5/css3_animations_vs_transitions.htm
 
