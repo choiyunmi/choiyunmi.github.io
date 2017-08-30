@@ -118,6 +118,7 @@ http://www.kirupa.com/html5/css3_animations_vs_transitions.htm
 
 트랜지션을 활용한 인터랙션. 클릭할 때 ease-in 이 적용된다.
 http://www.kirupa.com/snippets/move_element_to_click_position.htm
+https://autoprefixer.github.io/
 
 CSS의 transition 프로퍼티가 특정 속성을 listen 하고 있기 때문에,
 자바스크립트에서는 그 값만 수정해도 트랜지션이 적용된다.
