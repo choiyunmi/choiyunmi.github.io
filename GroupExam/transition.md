@@ -99,6 +99,29 @@ safari 3.1+ : -webkit -
 opera 10.5+ : -0-
 http://caniuse.com/#feat=css-transitions
 
+#### CSS3 트랜지션과 애니메이션의 차이
+
+http://www.kirupa.com/html5/css3_animations_vs_transitions.htm
+
+트랜지션은 CSS 프로퍼티에 의해서만 발생한다.
+:hover 같은 슈도 클래스에 의해서이거나, 클래스를 넣고 빼는 등의 동작에 의해서이다.
+물론 엘리먼트의 인라인 스타일을 변경해서도 동작하게 할 수 있다.
+
+애니메이션은 시작하기 위해 별도의 설정이 필요없다.
+한 번 정의하면 자동으로 시작한다.
+
+애니메이션은 `animation-iteration-count` 속성으로 쉽게 반복할 수 있지만,
+트랜지션은 이런 속성이 없다.
+트랜지션은 한 번만 발생한다. (필요하다면 스크립트에서 `transitionEnd` 이벤트를 받는다)
+
+애니메이션은 키프레임을 지정할 수 있다. 트랜지션은 할 수 없다.
+
+트랜지션을 활용한 인터랙션. 클릭할 때 ease-in 이 적용된다.
+http://www.kirupa.com/snippets/move_element_to_click_position.htm
+
+CSS의 transition 프로퍼티가 특정 속성을 listen 하고 있기 때문에,
+자바스크립트에서는 그 값만 수정해도 트랜지션이 적용된다.
+
 벤더 프리 픽스 설정 (접두어 버전 ) 
 https://autoprefixer.github.io/
 
