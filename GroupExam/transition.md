@@ -1,4 +1,4 @@
-transform (변형)
+#### transform (변형)
 
 transform  은 엘리먼트의 크기,위치, 모양을 변경하는 속성입니다.
 
@@ -7,11 +7,10 @@ transform  은 엘리먼트의 크기,위치, 모양을 변경하는 속성입�
 transform은 아래와 같은 형식
 
 속성 정리 
+http://cpbest.kr/study/test2.html
 
 https://codepen.io/vineethtr/pen/XKKEgM
-
 https://www.technig.com/css3-2d-transform-tutorial/
-
 https://webplatform.github.io/docs/css/functions/scale3d/
 
 2차원 변형 함수
@@ -47,28 +46,23 @@ https://webplatform.github.io/docs/css/functions/scale3d/
 - perspective(길이) : 입체적으로 보일수 있는 깊이 값을 지정합니다.
 
 2차원 변형함수는 최신 브라우저에서는 모두 지원 되지만 인터넷 익스플로러 9를 비롯한 이전 브라우저를 위해 -webkit과 -moz-,-ms-,-o-등의 브라우저 접두사를 붙여야 합니다.
-
-[ transform 지원 범위 ]
-
-  익스플로러 11 부터 지원
-
-  http://caniuse.com/#search=transform
-
-  ex)
-
-  모바일 에서 자주 이용하는 마크업 css
-
-  .test{top:0;width:33.33%;background-position-y:20px;-webkit-transform:translateY(20%);transform:translateY(20%)}  고정
-
-  .test{position:absolute;top:20%} 가변
-
-  wekit
-
-  안전하게 사용
-
   http://aboooks.tistory.com/271 접두어
 
-transition (전환)
+**[ transform 지원 범위 ]**
+
+익스플로러 11 부터 지원
+
+http://caniuse.com/#search=transform
+
+ex)  모바일 에서 자주 이용하는 마크업 css
+
+ex) http://cpbest.kr/study/transform.html
+
+.test{top:0;width:33.33%;background-position-y:20px;-webkit-transform:translateY(20%);transform:translateY(20%)}  고정
+
+.test{position:absolute;top:20%} 가변
+
+#### transition (전환)
 
 전환은 효과가 변경되었을 때 부드럽게 처리해주는 CSS의 기능입니다. 이와 관련된 것으로는 아래와 같은 속성들이 있습니다. 
 
@@ -89,40 +83,27 @@ transtion: transition-property | transition-duration | transition-timing-functio
 - cubic-bezier(n,n,n,n)  : 베지에 함수를 직접 정의해 사용합니다. n에서 사용할 수 있는 값은 0~1 입니다.
 - transition-delay :  언제 트렌지션을 시작할지 지정
 
-직접 설정 하는곳  http://www.roblaplaca.com/examples/bezierBuilder/#
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transition-timing-function2
 
+직접 설정 하는곳  http://www.roblaplaca.com/examples/bezierBuilder/#
              http://cubic-bezier.com/#.55,.06,.09,1.11
 
-
-
-[transition 브라우저 지원 범위]
+**[transition 브라우저 지원 범위]**
 
  ie 10.0+ ,chrome 26.0+, firefox 16.0+,safari 6.1+,opera 12.1+
 
 접두어 버전 
-
 chrome 4.0+ : -webkit-
-
 firefox 4.0+ : -moz
-
 safari 3.1+ : -webkit - 
-
 opera 10.5+ : -0-
-
-https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transition-timing-function2
-
-https://www.w3schools.com/cssref/playit.asp?filename=playcss_animation-timing-function&preval=linear
-
-익스플로러 11 부터 지원
-
 http://caniuse.com/#feat=css-transitions
 
-벤더 프리 픽스(접두어 버전 ) 
-
+벤더 프리 픽스 설정 (접두어 버전 ) 
 https://autoprefixer.github.io/
 
+**[개인 공부]**
 http://cpbest.kr/study/study.html
-
 
 
 
