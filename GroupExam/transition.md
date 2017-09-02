@@ -116,6 +116,27 @@ http://www.kirupa.com/html5/css3_animations_vs_transitions.htm
 
 애니메이션은 키프레임을 지정할 수 있다. 트랜지션은 할 수 없다.
 
+#### css 선언후 animation: anmateCloude keyframe 함수 지정 3s , 3초 linear 속도 infinite 무한대 횟수 지정후  keyframes에서 0% 첫화면 뜨자마다 0.01px만큼 이동후 3초에서 40%정도 후에 margin-left: 60px 이동후  3초에서 100% 간후 margin-left:120px이동후 opacity 0값을 넣는다.
+결론 : 익스에서 하위버전에서 사용을 못하므로 모바일에서 자주 사용하는편이다.
+
+.loan_step .step_motion .motion.cloud1{left:90px;bottom:108px;width:51px;height:31px;background-image:url(../images/mobile/loan/bg_step_cloud1.png);animation: animateCloude 3s linear infinite;}
+
+@-webkit-keyframes animateCloude{
+    0%{
+      margin-left: 0.01;
+      opacity: 0
+    }
+    40%{
+      margin-left: 60px;
+      opacity: 1
+    }
+    100%{
+      margin-left: 120px;
+      opacity: 0
+    }
+}
+
+
 트랜지션을 활용한 인터랙션. 클릭할 때 ease-in 이 적용된다.
 http://www.kirupa.com/snippets/move_element_to_click_position.htm
 https://autoprefixer.github.io/
